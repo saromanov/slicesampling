@@ -1,0 +1,39 @@
+{
+  "name": "slicesampling",
+  "version": "0.0.1",
+  "description": "Implementation of slice sampling",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saromanov/slicesampling.git"
+  },
+  "keywords": [
+    "sampling",
+    "math",
+    "mcmc"
+  ],
+  "author": "Sergey Romanov <xxsmotur@gmail.com> (https://github.com/saromanov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saromanov/slicesampling/issues"
+  },
+  "homepage": "https://github.com/saromanov/slicesampling#readme",
+  "devDependencies": {
+    "mathjs": "^2.1.1",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "mathjs": "^1.7.0",
+    "random-array": "0.0.2",
+    "core-js": "^0.6.0",
+     "babel": "^4.6.0",
+    "mocha": "^2.2.5"
+
+  }
+
+}
