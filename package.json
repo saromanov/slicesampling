@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/saromanov/slicesampling#readme",
   "devDependencies": {
-    "mathjs": "^2.1.1",
+    "mathjs": "^6.2.3",
     "underscore": "^1.8.3"
   },
   "dependencies": {
-    "mathjs": "^1.7.0",
+    "mathjs": "^6.2.3",
     "random-array": "0.0.2",
     "core-js": "^0.6.0",
      "babel": "^4.6.0",
